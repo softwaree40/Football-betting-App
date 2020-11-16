@@ -47,3 +47,16 @@ odds: {
 
 
 };
+
+//Create two players1 and players2 using destructuring
+
+const  [player1,player2] = game.players
+//isolate one player out of the 11 players store in the var by using destructuring
+
+const [goalkeeper1,...fieldplayers1] = player1
+const [goalkeeper2,...fieldplayers2] = player2
+
+//Let create all player for both teams
+
+const allPlayers= [...fieldplayers1,...fieldplayers2]
+console.log(allPlayers)
