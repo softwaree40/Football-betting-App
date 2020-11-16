@@ -63,3 +63,7 @@ const allPlayers= [...fieldplayers1,...fieldplayers2]
 
 const morePlayerToPlayer1 = [...fieldplayers1,"Wale","Mike","Peter"]
 console.log(morePlayerToPlayer1)
+//Destructuring using Object
+
+const {odds: {team1,x:draw,team2}} = game
+
