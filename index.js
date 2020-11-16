@@ -59,4 +59,7 @@ const [goalkeeper2,...fieldplayers2] = player2
 //Let create all player for both teams
 
 const allPlayers= [...fieldplayers1,...fieldplayers2]
-console.log(allPlayers)
+// add more players to player1 
+
+const morePlayerToPlayer1 = [...fieldplayers1,"Wale","Mike","Peter"]
+console.log(morePlayerToPlayer1)
