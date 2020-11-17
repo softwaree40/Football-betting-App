@@ -67,3 +67,10 @@ console.log(morePlayerToPlayer1)
 
 const {odds: {team1,x:draw,team2}} = game
 
+const printGoals = function(){
+
+  console.log(`${players.length} goals was scored`)
+
+
+};
+printGoals(...game.scored)
